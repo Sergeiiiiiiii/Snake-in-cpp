@@ -46,7 +46,7 @@ void DrawSnake(std::vector<Point> snake) {
 }
 void DrawScore(int score, int WIDTH, int HEIGHT) {
     gotoxy(2*WIDTH + 2,HEIGHT/2 );
-    std::cout << "YOU'R SCORE: " << score;
+    std::cout << "YOUR SCORE: " << score;
 }
 bool Pressed(int x) {
     if ((GetAsyncKeyState(x) & 0x8000) == 0x8000) {

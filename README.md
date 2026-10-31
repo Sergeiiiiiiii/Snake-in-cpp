@@ -18,4 +18,4 @@
 
 ```bash
 g++ Snake.cpp -o Snake.exe
-./snake.exe
+./Snake.exe
